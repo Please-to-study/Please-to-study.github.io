@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>寒假前端学习</title>
+    <url>/2021/02/07/%E5%AF%92%E5%81%87%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<h2 id="用户登录界面"><a href="#用户登录界面" class="headerlink" title="用户登录界面"></a><a href="http://47.107.251.159/login.html">用户登录界面</a></h2><h2 id="用户注册页面"><a href="#用户注册页面" class="headerlink" title="用户注册页面"></a><a href="http://47.107.251.159/register.html">用户注册页面</a></h2>]]></content>
+  </entry>
+  <entry>
+    <title>第一篇博客</title>
+    <url>/2021/02/04/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>这是我的第一篇博客，经过2天时间的搭建，我的博客正式上线了，希望以后能在博客中留下很多的记忆。谢谢这个美好的世界！</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>创建GitHub博客主页(仓库主页)绑定域名问题There isn&#39;t a GitHub Pages site here</title>
+    <url>/2021/02/07/%E5%88%9B%E5%BB%BAGitHub%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A1%B5-%E4%BB%93%E5%BA%93%E4%B8%BB%E9%A1%B5-%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E9%97%AE%E9%A2%98There-isn-t-a-GitHub-Pages-site-here/</url>
+    <content><![CDATA[<h1 id="创建GitHub博客主页-仓库主页-绑定域名问题There-isn’t-a-GitHub-Pages-site-here"><a href="#创建GitHub博客主页-仓库主页-绑定域名问题There-isn’t-a-GitHub-Pages-site-here" class="headerlink" title="创建GitHub博客主页(仓库主页)绑定域名问题There isn’t a GitHub Pages site here"></a>创建GitHub博客主页(仓库主页)绑定域名问题There isn’t a GitHub Pages site here</h1><p>
+        <span class="lazyload-img-span">
+        <img data-src="github.png">
+        
+      </span></p>
+<p>出现这个404 的错误，一般表示你的域名已经能够解析到了XXX.github.io，但是你的github还需要进一步配置。</p>
+<p>首先，我们需要先进入到你的项目中去:</p>
+<p>
+        <span class="lazyload-img-span">
+        <img data-src="github2.png">
+        
+      </span></p>
+<p>点击settings进行我们的仓库配置，之后找到GitHubPages进行页面的配置：</p>
+<p>
+        <span class="lazyload-img-span">
+        <img data-src="github3.png">
+        
+      </span></p>
+<p>上图中的 domain就是我们需要设置域名的地方，我们输入完成我们的域名之后，进行绑定（点击Save）就可以了。</p>
+<p>这个时候我们会在我们的仓库目录下面看到一个名字为CNAME的文件：</p>
+<p>
+        <span class="lazyload-img-span">
+        <img data-src="github4.png">
+        
+      </span></p>
+<p>里面的内容就是你的域名的全称。<br>之后我们还需要再确认一下我们的域名配置（腾讯云域名）。</p>
+<h4 id="先进行域名解析"><a href="#先进行域名解析" class="headerlink" title="先进行域名解析"></a>先进行域名解析</h4><p>
+        <span class="lazyload-img-span">
+        <img data-src="github5.png">
+        
+      </span></p>
+<p>点击添加记录</p>
+<p>
+        <span class="lazyload-img-span">
+        <img data-src="github6.png">
+        
+      </span></p>
+<p>这里要添加2条记录，第一条记录的主机记录为www，记录类型为A，线路类型默认，记录值为你域名绑定的服务器ip地址（若你使用的是阿里云等服务器，这里填写你服务器的公网地址，若你使用的是github服务器则填写github服务器ip）第二条记录只需要把主机记录改为@即可其他的与第一条一样。</p>
+<p>github服务器的ip地址可以通过在命令终端中ping 你的主页地址来获得例如我的是ping <a href="https://github.com/Please-to-study/Please-to-study.github.io">https://github.com/Please-to-study/Please-to-study.github.io</a>. 这个地址在你的github仓库中可以找到</p>
+<p>
+        <span class="lazyload-img-span">
+        <img data-src="github7.png">
+        
+      </span></p>
+<p>执行该命令之后可以在终端中看到你的ip地址</p>
+<p>
+        <span class="lazyload-img-span">
+        <img data-src="github8.png">
+        
+      </span></p>
+<p>这个就是我们要绑定在记录值上的地址（ping域名的时候地址可能会变，因为github动态的分配了3个ip进去，哪个都可以访问的）。</p>
+<p>CNAME地址，我们在记录里面写的是www，然后指向了我们的github域名（cname类型的解析为域名解析到域名）。这样我们的解析就算是配置完成了，直接访问我们的www的域名就可以访问到了。</p>
+]]></content>
+  </entry>
+</search>
