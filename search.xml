@@ -7,6 +7,11 @@
 ]]></content>
   </entry>
   <entry>
+    <title>寒假前端学习</title>
+    <url>/2021/02/07/%E5%AF%92%E5%81%87%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<h2 id="用户登录界面"><a href="#用户登录界面" class="headerlink" title="用户登录界面"></a><a href="http://47.107.251.159/login.html">用户登录界面</a></h2><h2 id="用户注册页面"><a href="#用户注册页面" class="headerlink" title="用户注册页面"></a><a href="http://47.107.251.159/register.html">用户注册页面</a></h2>]]></content>
+  </entry>
+  <entry>
     <title>创建GitHub博客主页(仓库主页)绑定域名问题There isn&#39;t a GitHub Pages site here</title>
     <url>/2021/02/07/%E5%88%9B%E5%BB%BAGitHub%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A1%B5-%E4%BB%93%E5%BA%93%E4%B8%BB%E9%A1%B5-%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E9%97%AE%E9%A2%98There-isn-t-a-GitHub-Pages-site-here/</url>
     <content><![CDATA[<h1 id="创建GitHub博客主页-仓库主页-绑定域名问题There-isn’t-a-GitHub-Pages-site-here"><a href="#创建GitHub博客主页-仓库主页-绑定域名问题There-isn’t-a-GitHub-Pages-site-here" class="headerlink" title="创建GitHub博客主页(仓库主页)绑定域名问题There isn’t a GitHub Pages site here"></a>创建GitHub博客主页(仓库主页)绑定域名问题There isn’t a GitHub Pages site here</h1><p>
@@ -62,10 +67,5 @@
 <p>这个就是我们要绑定在记录值上的地址（ping域名的时候地址可能会变，因为github动态的分配了3个ip进去，哪个都可以访问的）。</p>
 <p>CNAME地址，我们在记录里面写的是www，然后指向了我们的github域名（cname类型的解析为域名解析到域名）。这样我们的解析就算是配置完成了，直接访问我们的www的域名就可以访问到了。</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>寒假前端学习</title>
-    <url>/2021/02/07/%E5%AF%92%E5%81%87%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<h2 id="用户登录界面"><a href="#用户登录界面" class="headerlink" title="用户登录界面"></a><a href="http://47.107.251.159/login.html">用户登录界面</a></h2><h2 id="用户注册页面"><a href="#用户注册页面" class="headerlink" title="用户注册页面"></a><a href="http://47.107.251.159/register.html">用户注册页面</a></h2>]]></content>
   </entry>
 </search>
